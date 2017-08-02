@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}" type="text/css" />
+    <a href="{{ url_for('logout') }}">log out</a>
+    <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+    <script>
+    d3.select('#topsvg').append('a').attr('href',"{{ url_for('datamap') }}").append('rect').attr('width','300').attr('height','280').style('opacity','0');
+    </script>
+{% endblock %}
+ 

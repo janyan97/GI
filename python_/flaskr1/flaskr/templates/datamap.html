@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+    <a href="{{ url_for('back') }}">back to dashboard</a>
+    <a href="{{ url_for('logout') }}">log out</a>
+    <p>{{var1}}</p>
+    <p>{{var2}}</p>
+    <p>{{var3}}</p>
+    <p>{{var4}}</p>
+    <p>{{var5}}</p>
+    <script src="{{ url_for('static', filename='spain.js') }}"></script>
+    
+    <!--after here is the most important part -->
+    
+{% endblock %}
+

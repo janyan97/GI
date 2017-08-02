@@ -1,0 +1,39 @@
+MANIFEST.in
+flaskr/__init__.py
+flaskr/flaskr.py
+flaskr/forms.py
+flaskr/models.py
+flaskr.egg-info/PKG-INFO
+flaskr.egg-info/SOURCES.txt
+flaskr.egg-info/dependency_links.txt
+flaskr.egg-info/requires.txt
+flaskr.egg-info/top_level.txt
+flaskr/static/Spain.json
+flaskr/static/browser.min.js
+flaskr/static/business.csv
+flaskr/static/d3.js
+flaskr/static/dashboard.css
+flaskr/static/dashboard.js
+flaskr/static/iopctrl.js
+flaskr/static/jquery.js
+flaskr/static/react-dom.js
+flaskr/static/react.js
+flaskr/static/spain.js
+flaskr/static/toge.csv
+flaskr/static/topojson.js
+flaskr/static/whatif-1.js
+flaskr/static/whatif.js
+flaskr/static/New folder/business.csv
+flaskr/static/New folder/dashboard.css
+flaskr/static/New folder/dashboard.js
+flaskr/static/New folder/index.html
+flaskr/static/New folder/iopctrl-ori.js
+flaskr/static/New folder/style.css
+flaskr/static/New folder/toge.csv
+flaskr/templates/afterlogin.html
+flaskr/templates/datamap.html
+flaskr/templates/haha.html
+flaskr/templates/lala.html
+flaskr/templates/layout.html
+flaskr/templates/login.html
+flaskr/templates/logout.html

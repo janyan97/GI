@@ -1,0 +1,166 @@
+
+		.ok {
+            fill: red;
+            opacity: 0.8;
+        }
+
+        .warning {
+            fill: yellow;
+            opacity: 0.8;
+        }
+		
+		.fault {
+            fill: green;
+            opacity: 0.8;
+        }
+		
+		body {
+            font: 16px arial;
+        }
+
+        .unselectable {
+            -moz-user-select: -moz-none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* css formats for the gauge */
+        .gauge .domain {
+            stroke-width: 2px;
+            stroke: #8B8B83;
+        }
+
+        .gauge .tick line {
+            stroke: #8B8B83;
+            stroke-width: 2px;
+        }
+        
+        .gauge line {
+            stroke: #8B8B83;
+        }
+
+        .gauge .arc, .gauge .cursor {
+            opacity: 0;
+        }
+
+        .gauge .major {
+            fill: #8B8B83;
+            font-size: 10px;
+            font-family: 'Play', verdana, sans-serif;
+            font-weight: normal;
+        }
+        
+        .gauge .indicator {
+            stroke: #EE3311;
+            fill: #000;
+            stroke-width: 4px;
+        }
+
+        /* css formats for the segment display */
+        .segdisplay .on {
+            fill: #00FFFF;
+
+        }
+
+        .segdisplay .off {
+            fill: #00FFFF;
+            opacity: 0.15;
+        }
+}
+
+body {
+    margin:0px;
+}
+
+#backdiv {
+    width: 950px;
+    height: 490px;
+    border: 1px solid red;
+    position: relative;
+}
+
+#formdiv {
+   
+    width: 250px;
+    height: 490px;
+    border: 1px inset green;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#topdiv {
+    width: 800px;
+    height: 240px;    
+    position: absolute;
+    left: 270px;
+    top: 0px;
+}
+
+#leftbottomdiv {
+    position: absolute;
+    left: 270px;
+    top: 250px;
+}
+
+#rightbottomdiv {
+    position: absolute;
+    left: 675px;
+    top: 250px;
+}
+
+
+#leftbottomdiv, #rightbottomdiv {
+    width: 395px;
+    height: 240px;    
+}
+
+#formdiv, #topdiv, #leftbottomdiv, #rightbottomdiv {
+    border: 1px inset green;
+
+}
+
+
+/*the css of form part*/
+
+
+#titlediv,#dateCho,#busCho,#comCho,#binCho,#cheCho {
+    width: 245px;
+    
+}
+
+#titlediv {
+    height: 50px;
+}
+
+#dateCho,#busCho,#comCho {
+    height: 110px;
+}
+
+#binCho,#cheCho {
+    height: 40px;
+}
+
+select {
+    width: 150px;
+}
+
+b {
+    margin-right: 10px;
+}
+.dateclass {
+    width: 50px;
+}
+
+input[type="number"]{-moz-appearance:textfield;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+<!doctype html>
+<title>Dashboard</title>
+<script src="{{ url_for('static', filename='react.js') }}"></script>
+<script src="{{ url_for('static', filename='react-dom.js') }}"></script>
+<script src="{{ url_for('static', filename='browser.min.js') }}"></script>
+<script src="{{ url_for('static', filename='d3.js') }}"></script>
+<script src="{{ url_for('static', filename='topojson.js') }}"></script>
+<script src="{{ url_for('static', filename='iopctrl.js') }}"></script>
+<script src="{{ url_for('static', filename='jquery.js') }}"></script>
+
+
+
+<div class=page>
+  <h1>Dashboard</h1>
+  <p id = 'abc'><p>
+  <div class=metanav>
+<!--  {% if not session.logged_in %} 
+    <a href="{{ url_for('login') }}">log in</a>
+    <a href="{{ url_for('logout') }}">log out</a>
+    <a href="{{ url_for('datamap') }}">show me the map</a>
+-->
+<!--
+  {% else %}
+    <a href="login.html">log out</a>
+  {% endif %}
+-->
+  </div>
+  {% for message in get_flashed_messages() %}
+    <div class=flash>{{ message }}</div>
+    
+  {% endfor %}
+  {% block body %}{% endblock %}
+  </div>
